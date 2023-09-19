@@ -29,6 +29,9 @@ $(function () {
     galeriaTomb.forEach((elem, index) => {
         const galeriaKep = new Kartya(elem, index, GALERIA);
     });
+    $(window).on("esemenyem", (event) =>{
+        console.log(event.detail)
+    })
 
    
 });
