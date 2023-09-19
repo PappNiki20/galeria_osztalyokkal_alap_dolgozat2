@@ -12,7 +12,7 @@ class Kartya {
         });
     }
     esemenyTrigger() {
-        console.log(this.#kepem);
+        //console.log(this.#kepem);
         const esemenyem = new CustomEvent("esemenyem", {
             detail: this,
         });
